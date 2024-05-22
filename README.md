@@ -4,3 +4,9 @@ This repository will provide the necessary files to undergo a REST3 simulation a
 ## Preprocessing
 In order to prepare the directory where you will be executing the slurm files you will need to undergo a preprocessing phase. For that you will need the following files from this repository: `partial_tempering.sh`, `gennewtop.sh`, `GlobalScript.py`, `rest.mdp` (at the preprocessing phase you just need a file called rest.mdp but it could be empty for all is needed), and `run_python_ft3.slurm`.
 
+### Requirements
+The preprocessing works when it's been used:
+1. Python 3.7.8
+2. Gromacs 2021.4 Plumed 2.8.0
+
+### Execution
